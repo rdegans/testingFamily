@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -200,7 +200,7 @@ namespace hungaryTDv2
                         return null;
                     }
                 }
-                else
+                /*else
                 {
                     for (int i = 0; i < famBullets.Length; i++)
                     {
@@ -237,7 +237,7 @@ namespace hungaryTDv2
                     {
                         return null;
                     }
-                }
+                }*/
             }
             else
             {
@@ -279,7 +279,7 @@ namespace hungaryTDv2
                         }
                     }
                 }
-                else
+                /*else
                 {
                     for (int i = 0; i < famBullets.Length; i++)
                     {
@@ -290,7 +290,7 @@ namespace hungaryTDv2
                         cBackground.Children.Add(famBullets[i]);
                         cBackground.Children.Add(famHitboxes[i]);
                     }
-                }
+                }*/
                 shooting = true;
                 return null;
             }
